@@ -16,7 +16,7 @@ banco.conexao.sync( function(){
     console.log("Banco de dados conectado.");
 })
 
-const PORTA = 3000
+const PORTA = 3001
 app.listen( PORTA, function(){
     console.log("Servidor iniciados na porta "+PORTA);
 })
