@@ -5,7 +5,7 @@ var pessoa = banco.conexao.define(
     "pessoa",
     {
         id:{
-            type:sequelize.INTEGER.UNSIGNED,
+            type:sequelize.SERIAL.UNSIGNED,
             primaryKey: true,
             autoIncrement:true
         },
@@ -14,7 +14,7 @@ var pessoa = banco.conexao.define(
             allowNull:false
         },
         idade:{
-            type:sequelize.INTEGER.UNSIGNED,
+            type:sequelize.BIGINT.UNSIGNED,
             allowNull:false
         }
     }
