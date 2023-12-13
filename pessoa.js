@@ -14,7 +14,7 @@ var pessoa = banco.conexao.define(
             allowNull:false
         },
         idade:{
-            type:sequelize.BIGINT.UNSIGNED,
+            type:sequelize.INTEGER.UNSIGNED,
             allowNull:false
         }
     }
